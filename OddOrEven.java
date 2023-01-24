@@ -10,5 +10,6 @@ class OddOrEven {
             System.out.println("The number is even");
         } else
             System.out.println("The number is odd");
+    sc.close();
     }
 }

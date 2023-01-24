@@ -26,5 +26,7 @@ public class PallindromeNumber {
         }
         else
             System.out.println("The number is not pallindrome");
+
+        sc.close();
     }
 }
