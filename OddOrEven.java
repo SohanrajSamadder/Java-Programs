@@ -1,4 +1,3 @@
-
 /*A program to check if a given number is ODD or EVEN*/
 import java.util.Scanner;
 
