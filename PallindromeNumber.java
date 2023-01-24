@@ -14,11 +14,11 @@ public class PallindromeNumber {
         int temp = a;
         int sum = 0;
         while (temp != 0) {
-            int rem = temp % 10;
+            int rem = a % 10;
             sum = sum + rem * 10;
-            sum = sum / 10;
+            a = a / 10;
         }
-        if (sum == a) {
+        if (sum==a) {
             System.out.println("The number is pallindrome");
         } else
             System.out.println("The number is not pallindrome");
